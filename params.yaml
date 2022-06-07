@@ -1,0 +1,7 @@
+base:
+  project:"Accessment Test"
+
+artifacts:
+  artifacts_dir: artifacts
+
+  raw_local_data_dir: artifacts/raw_local_data_dir
