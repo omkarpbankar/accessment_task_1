@@ -21,7 +21,7 @@ class TextReading(ReadingText):
             st.error("Something went Wrong while uploading the text file. Kindly try once again."+'\n'+str(e))  
             return None
 
-class TextReplacement(ReadingText):
+class TextReplacement(TextReading):
     
         def replace_text(self, text_data, original_string, new_string):
             try:
